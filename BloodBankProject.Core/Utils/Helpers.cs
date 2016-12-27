@@ -8,7 +8,7 @@ namespace BloodBankProject.Core.Utils
         {
             get
             {
-                return @"Server=.\SqlExpress;Database=BloodBankDb;User Id=sa;Password=asg123asg;";
+                return @"Server=.\SqlExpress;Database=BloodBankDb;User Id=dbusername;Password=dbpass;";
             }
         }
 
