@@ -1,0 +1,22 @@
+@import url('droidarabicnaskh.css');
+
+body, h1,h2,h3,h4,h5 {
+    font-family: 'Droid Arabic Naskh';
+}
+
+select.form-control {
+    padding: 0 12px;
+}
+
+.jumbotron {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    vertical-align: middle
+}
+
+.field-validation-error, .validation-summary-errors {
+    color: red;
+}

@@ -1,0 +1,10 @@
+C:\Users\Ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.Core\bin\Debug\BloodBankProject.Core.dll.config
+C:\Users\Ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.Core\bin\Debug\BloodBankProject.Core.dll
+C:\Users\Ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.Core\bin\Debug\BloodBankProject.Core.pdb
+C:\Users\Ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.Core\bin\Debug\EntityFramework.dll
+C:\Users\Ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.Core\bin\Debug\EntityFramework.xml
+C:\Users\Ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.Core\obj\Debug\BloodBankProject.Core.csprojResolveAssemblyReference.cache
+C:\Users\Ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.Core\obj\Debug\BloodBankProject.Core.dll
+C:\Users\Ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.Core\obj\Debug\BloodBankProject.Core.pdb

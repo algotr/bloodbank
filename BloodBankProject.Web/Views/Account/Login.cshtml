@@ -1,0 +1,33 @@
+﻿@model BloodBankProject.Web.ViewModels.LoginViewModel
+
+@{
+    ViewBag.Title = "تسجيل الدخول";
+}
+
+
+<div class="container">
+    <h4 class="modal-title" id="loginModalLabel">
+        تسجيل الدخول
+    </h4>
+    @Html.ValidationSummary(true)
+
+@using (Html.BeginForm("Login", "Account", FormMethod.Post, new { role = "form" }))
+{
+    <div class="modal-body">
+        <div class="form-group">
+            @Html.LabelFor(m => m.Username)
+            @Html.TextBoxFor(m => m.Username, new { @class = "form-control", placeholder = "اسم المستخدم" })
+            @Html.ValidationMessageFor(m => m.Username)
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Password)
+            @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "كلمة المرور" })
+            @Html.ValidationMessageFor(m => m.Password)
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="submit" class="btn btn-primary">دخول</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">اغلاق</button>
+    </div>
+}
+</div>

@@ -1,0 +1,27 @@
+﻿<ul class="nav navbar-nav pull-left">
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <li><a href="#" data-toggle="modal" data-target="#register-modal">التسجيل</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#login-modal">الدخول</a></li>
+    }
+    else
+    {
+
+        <li><a href="Account/Logout">تسجيل الخروج</a></li>
+        <li><a href="messages.html">الرسائل <span class="badge">50</span></a></li>
+
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                @User.Identity.Name <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="#" data-toggle="modal" data-target="#donation-modal">تعديل تاريخ اخر تبرع</a></li>
+                <li class="divider"></li>
+                <li><a href="profile.html">الملف الشخصي</a></li>
+                <li class="divider"></li>
+                <li><a href="#" data-toggle="modal" data-target="#password-modal">تغيير كلمة المرور</a></li>
+            </ul>
+        </li>
+    }
+</ul>
+

@@ -1,0 +1,12 @@
+c:\users\ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.GUI\bin\Debug\BloodBankProject.GUI.exe.config
+C:\Users\Ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.GUI\bin\Debug\BloodBankProject.GUI.exe
+C:\Users\Ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.GUI\bin\Debug\BloodBankProject.GUI.pdb
+C:\Users\Ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.GUI\bin\Debug\BloodBankProject.Core.dll
+C:\Users\Ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.GUI\bin\Debug\BloodBankProject.Core.pdb
+C:\Users\Ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.GUI\obj\Debug\BloodBankProject.GUI.csprojResolveAssemblyReference.cache
+C:\Users\Ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.GUI\obj\Debug\BloodBankProject.GUI.Properties.Resources.resources
+C:\Users\Ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.GUI\obj\Debug\BloodBankProject.GUI.csproj.GenerateResource.Cache
+C:\Users\Ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.GUI\obj\Debug\BloodBankProject.GUI.exe
+C:\Users\Ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.GUI\obj\Debug\BloodBankProject.GUI.pdb
+C:\Users\Ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.GUI\bin\Debug\EntityFramework.dll
+C:\Users\Ali\documents\visual studio 2013\Projects\BloodBankProject\BloodBankProject.GUI\bin\Debug\EntityFramework.xml

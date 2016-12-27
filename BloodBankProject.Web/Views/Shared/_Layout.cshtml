@@ -1,0 +1,110 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - بنك الدم</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="container">
+        @Html.Partial("_NavBar")
+
+        <!-- search box -->
+        <div class="row">
+            <div class="jumbotron text-center">
+                <form class="form-inline" action="search.html" role="form">
+                    <div class="form-group">
+                        <label for="country">الدولة</label>
+                        <select id="country" class="form-control">
+                            <option>اليمن</option>
+                            <option>السعودية</option>
+                            <option>اﻻمارات</option>
+                            <option>البحرين</option>
+                            <option>الكويت</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">المدينة</label>
+                        <input type="text" class="form-control" id="city" placeholder="المدينة">
+                    </div>
+                    <div class="form-group">
+                        <label for="blood_type">فئة الدم</label>
+                        <select id="blood_type" class="form-control">
+                            <option>+A</option>
+                            <option>-A</option>
+                            <option>+B</option>
+                            <option>-B</option>
+                            <option>AB</option>
+                            <option>-O</option>
+                            <option>+O</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        بحث
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </form>
+            </div>
+        </div> <!-- end search box -->
+
+        
+        @RenderBody()
+
+        <!-- footer -->
+        <div class="row">
+            <footer>
+                <hr />
+                <div class="text-center">(&copy;) جميع الحقوق محفوظة بنك الدم @DateTime.Now.Year</div>
+            </footer>
+        </div> <!-- end footer -->
+
+
+        @if (!User.Identity.IsAuthenticated)
+        {
+            @Html.Action("Register", "Account")
+            @Html.Action("LoginForm", "Account")
+        }
+        else
+        {
+             <!-- modify donation date modal -->
+            <div class="modal fade" id="donation-modal" tabindex="-1" role="dialog" aria-labelledby="donationModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close"
+                                    data-dismiss="modal" aria-hidden="true">
+                                &times;
+                            </button>
+                            <h4 class="modal-title" id="donationModalLabel">
+                                تغيير تاريخ اخر تبرع
+                            </h4>
+                        </div>
+                        <form action="index.html" method="POST" role="form">
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <input type="date" class="form-control" value="7/6/2016" />
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-primary">حفظ</button>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">اغلاق</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div> <!-- end donation modal -->
+            
+            
+            @Html.Action("ChangePasswordForm", "Account")
+        }
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+    </div>
+</body>
+</html>
